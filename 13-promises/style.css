@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    font-family:monospace;
+    color:#555;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.countries{
+    margin-bottom: 8rem;
+    display: flex;
+    font-size: 2rem;
+    opacity: 1;
+}
+.country__region{
+    color: grey;
+    margin-bottom: 2rem;
+}
+.country__name{
+    margin-top: 2rem;
+}
+.country__name,.country__region{
+    margin-left: 2rem;
+}
+img{
+    width: 100%;
+}
+.country{
+    background-color: #fff;
+    box-shadow: 0 2rem 5rem 1rem rgba(0,0,0,0.2);
+    font-size: 1.1rem;
+    width: 30rem;
+    border-radius: 0.7rem;
+    margin: 0 3rem;
+    overflow: hidden;
+    
+}
+.country__row{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+span{
+    margin-right: 1rem;
+}

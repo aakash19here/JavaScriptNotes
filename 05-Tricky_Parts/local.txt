@@ -1,0 +1,9 @@
+const $name = 'Ak';
+const $age = 19;
+const $city = 'Satara';
+const personalInfo = () => {
+    const $name = 'Aakash';
+    const $age = 17;
+    return `${$name} is my name , I'm ${$age}yrs old and I'm from ${$city} city`
+}
+console.log(personalInfo());
